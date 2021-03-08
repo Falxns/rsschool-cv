@@ -1,1 +1,1 @@
-# rsschool-cv
+https://Falxns.github.io/rsschool-cv/cv
