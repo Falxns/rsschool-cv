@@ -15,23 +15,66 @@
   font-family: "Hammersmith", sans-serif;
 }
 
+body {
+  background-color: #e8ebff;
+}
+
 .content {
   align-items: center;
+  text-align: center;
 }
 
 .header-line {
   font-size: 60px;
-  margin: 50px 0;
+  padding: 30px 0;
+  margin-bottom: 20px;
+  background-color: #1c0947;
+  color: #fff;
 }
 
 .main-name {
   margin-bottom: 30px;
 }
 
+.main-pic {
+  width: 200px;
+  height: 200px;
+}
+
+.main-list {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin: 0 45%;
+  list-style: square;
+}
+
+.main-info {
+  margin: 10px;
+}
+
+.code-area {
+  border-radius: 10px;
+  text-align: left;
+  margin: 0 40%;
+  background-color: #fff;
+}
+
 .paragraph-code {
   font-family: "Code";
-  background-color: #7c40ff;
-  padding: 15px;
+  padding: 5px;
+}
+
+.paragraph-code-1 {
+  font-family: "Code";
+  padding: 5px;
+  margin-left: 15px;
+}
+
+.paragraph-code-2 {
+  font-family: "Code";
+  padding: 5px;
+  margin-left: 30px;
 }
 
 footer {
@@ -42,6 +85,15 @@ footer {
   justify-content: space-between;
   padding: 30px 20px;
   align-items: center;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+.footer-li {
+  margin: 0 100px;
 }
 
 .footer-icon {
