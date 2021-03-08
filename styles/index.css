@@ -3,6 +3,11 @@
   src: url("assets/fonts/Hammersmith_One/HammersmithOne-Regular.ttf");
 }
 
+@font-face {
+  font-family: "Code";
+  src: url("assets/fonts/Source_Code_Pro/SourceCodePro-Regular.ttf");
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -15,11 +20,18 @@
 }
 
 .header-line {
+  font-size: 60px;
   margin: 50px 0;
 }
 
 .main-name {
   margin-bottom: 30px;
+}
+
+.paragraph-code {
+  font-family: "Code";
+  background-color: #7c40ff;
+  padding: 15px;
 }
 
 footer {
